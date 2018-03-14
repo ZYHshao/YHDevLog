@@ -33,9 +33,9 @@ pod "YHDevLog"
 ## 无需处理
 Log模块默认只在Debug模式下开启，因此不用担心上线时做修改。
 ## 预览
-![效果图1](https://github.com/ZYHshao/YHDevLog/raw/master/1.png  =100x400)
+![效果图1-w50](https://github.com/ZYHshao/YHDevLog/raw/master/1.png)
 
 ***
 
-![效果图2](https://github.com/ZYHshao/YHDevLog/raw/master/2.png  =100x400)
+![效果图2-w150](https://github.com/ZYHshao/YHDevLog/raw/master/2.png)
 
