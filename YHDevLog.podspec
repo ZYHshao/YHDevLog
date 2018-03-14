@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YHDevLog"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of YHDevLog."
 
   # This description is used to generate tags and improve search results.
@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/YHDevLog"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/ZYHshao/YHDevLog"
+  # s.screenshots  = "https://github.com/ZYHshao/YHDevLog/raw/master/1.png", "https://github.com/ZYHshao/YHDevLog/raw/master/2.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
