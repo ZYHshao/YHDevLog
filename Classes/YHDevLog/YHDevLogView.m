@@ -50,7 +50,10 @@
     self.window.backgroundColor = [UIColor clearColor];
     self.window.windowLevel = UIWindowLevelAlert+100;
     self.window.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20+YHDevIphoneX_Area_Height);
-    [self.window addSubview:self];
+    UIViewController * controller = [UIViewController new];
+    controller.view=self;
+    self.window.rootViewController =controller;
+    controller.automaticallyAdjustsScrollViewInsets = NO;
     self.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     self.clipsToBounds = YES;
     self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];

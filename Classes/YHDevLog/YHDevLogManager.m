@@ -38,7 +38,7 @@
     }
     [self shared].logView = [[YHDevLogView alloc]init];
     
-    [self shared].logView.frame = [self shared].logView.window.frame;
+    [self shared].logView.frame = [self shared].logView.window.bounds;
     [[self shared].logView.window makeKeyAndVisible];
 }
 
